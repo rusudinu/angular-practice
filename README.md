@@ -2,6 +2,8 @@
 
 This is a demo project for Angular.
 
+The associated courses can be found at [https://academy.codingshadows.com/category/angular](https://academy.codingshadows.com/category/angular).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
