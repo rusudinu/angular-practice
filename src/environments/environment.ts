@@ -1,4 +1,4 @@
 export const environment = {
-  title: 'Normal environment',
+  currentEnvironmentPublicName: 'Normal environment',
   extra: 'Extra environment'
 };

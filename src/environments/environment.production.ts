@@ -1,3 +1,3 @@
 export const environment = {
-  title: 'Production environment'
+  currentEnvironmentPublicName: 'Production environment'
 };

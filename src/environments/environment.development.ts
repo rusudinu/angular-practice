@@ -1,3 +1,3 @@
 export const environment = {
-  title: 'Development environment'
+  currentEnvironmentPublicName: 'Development environment'
 };
