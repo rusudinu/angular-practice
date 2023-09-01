@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-pipes-demo-component',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./pipes-demo-component.component.css']
 })
 export class PipesDemoComponentComponent {
-
+  today = new Date();
+  title$ = of('Home');
 }

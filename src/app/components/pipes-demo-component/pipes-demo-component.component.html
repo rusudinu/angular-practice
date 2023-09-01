@@ -1,1 +1,10 @@
-<p>pipes-demo-component works!</p>
+<p>{{ today | date }}</p>
+<p>{{ today | date: 'shortDate' }}</p>
+<p>{{ 'Hello' | uppercase }}</p>
+<p>{{ 'Hello' | lowercase }}</p>
+<p>{{ 'neata' | capitalize }}</p>
+<p>{{ 1000 | currency }}</p>
+<p>{{ 1000 | number }}</p>
+<p>{{ 0.5 | percent }}</p>
+<p>{{ 'hello' | uppercase | capitalize }}</p>
+<p>{{ title$ | async }}</p>

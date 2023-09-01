@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { CapitalizePipe } from '../shared/capitalize-pipe';
 import { DemoComponentComponent } from './demo-component/demo-component.component';
 import { EnvironmentDemoComponentComponent } from './environment-demo-component/environment-demo-component.component';
 import { DatabindingDemoComponentComponent } from './databinding-demo-component/databinding-demo-component.component';
@@ -40,11 +41,13 @@ import { UsersComponentComponent } from './users-component/users-component.compo
     DirectivesDemoComponentComponent,
     FirstDummyComponentComponent,
     SecondDummyComponentComponent,
-    UsersComponentComponent
+    UsersComponentComponent,
+    PipesDemoComponentComponent
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    CapitalizePipe
   ]
 })
 export class ComponentsModule {
