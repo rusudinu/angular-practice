@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComponentsModule } from './components/components.module';
+import { ServiceForDataSharing } from './shared/service-for-data-sharing';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { ComponentsModule } from './components/components.module';
     NgbModule,
     ComponentsModule
   ],
-  providers: [],
+  providers: [ServiceForDataSharing],
   bootstrap: [AppComponent]
 })
 export class AppModule {

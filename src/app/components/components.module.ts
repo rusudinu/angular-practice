@@ -10,6 +10,8 @@ import { TwowaybindingDemoComponentComponent } from './twowaybinding-demo-compon
 import { DirectivesDemoComponentComponent } from './directives-demo-component/directives-demo-component.component';
 import { ServicesDemoComponentComponent } from './services-demo-component/services-demo-component.component';
 import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-component.component';
+import { FirstDummyComponentComponent } from './first-dummy-component/first-dummy-component.component';
+import { SecondDummyComponentComponent } from './second-dummy-component/second-dummy-component.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-c
     TwowaybindingDemoComponentComponent,
     DirectivesDemoComponentComponent,
     ServicesDemoComponentComponent,
-    PipesDemoComponentComponent
+    PipesDemoComponentComponent,
+    FirstDummyComponentComponent,
+    SecondDummyComponentComponent
   ],
   exports: [
     DemoComponentComponent,
@@ -31,7 +35,9 @@ import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-c
     EventbindingDemoComponentComponent,
     PropertybindingDemoComponentComponent,
     TwowaybindingDemoComponentComponent,
-    DirectivesDemoComponentComponent
+    DirectivesDemoComponentComponent,
+    FirstDummyComponentComponent,
+    SecondDummyComponentComponent
   ],
   imports: [
     CommonModule,
