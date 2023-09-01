@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./propertybinding-demo-component.component.css']
 })
 export class PropertybindingDemoComponentComponent {
-
+  propertyBoundImageUrl = 'https://picsum.photos/200/300';
 }

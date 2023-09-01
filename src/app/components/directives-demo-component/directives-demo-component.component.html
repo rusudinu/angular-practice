@@ -1,1 +1,26 @@
-<p>directives-demo-component works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="row">
+        <input [(ngModel)]="name" class="col-3"/>
+        <p class="col-3">{{name}}</p>
+        <ng-container *ngIf="name.length > 5 else shortName">
+          <p class="col-3">name is too long</p>
+        </ng-container>
+        <ng-template #shortName>
+          <p class="col-3">The name is short</p>
+        </ng-template>
+      </div>
+    </div>
+    <div class="col-6">
+      <input [(ngModel)]="anotherName" class="col-3"/>
+      <button class="btn btn-primary" (click)="addName()">Add name</button>
+      <div class="row">
+        <div *ngFor="let n of namesList" class="col-6">
+          <p>{{n}}</p>
+        </div>
+        <div *ngFor="let item of namesList; index as i" class="col-6">{{ i }}: {{ item }}</div>
+      </div>
+    </div>
+  </div>
+</div>

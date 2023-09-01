@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./eventbinding-demo-component.component.css']
 })
 export class EventbindingDemoComponentComponent {
+  handleClick() {
+    console.log('Button clicked');
+  }
 
+  handleClickWithEvent(event: MouseEvent) {
+    console.log('Button clicked', event);
+  }
 }

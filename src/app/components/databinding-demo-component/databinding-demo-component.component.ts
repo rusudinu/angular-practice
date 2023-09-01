@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./databinding-demo-component.component.css']
 })
 export class DatabindingDemoComponentComponent {
-
+  myString = 'This is a string';
 }

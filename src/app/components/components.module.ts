@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { DemoComponentComponent } from './demo-component/demo-component.component';
 import { EnvironmentDemoComponentComponent } from './environment-demo-component/environment-demo-component.component';
 import { DatabindingDemoComponentComponent } from './databinding-demo-component/databinding-demo-component.component';
@@ -25,10 +26,16 @@ import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-c
   ],
   exports: [
     DemoComponentComponent,
-    EnvironmentDemoComponentComponent
+    EnvironmentDemoComponentComponent,
+    DatabindingDemoComponentComponent,
+    EventbindingDemoComponentComponent,
+    PropertybindingDemoComponentComponent,
+    TwowaybindingDemoComponentComponent,
+    DirectivesDemoComponentComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class ComponentsModule {

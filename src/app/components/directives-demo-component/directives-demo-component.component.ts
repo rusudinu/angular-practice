@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives-demo-component.component.css']
 })
 export class DirectivesDemoComponentComponent {
+  name: string = '';
+  anotherName: string = '';
+  namesList: string[] = [];
 
+  addName() {
+    this.namesList.push(this.anotherName);
+    this.anotherName = '';
+    console.log(this.namesList)
+  }
 }
