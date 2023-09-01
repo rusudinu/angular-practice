@@ -12,6 +12,7 @@ import { ServicesDemoComponentComponent } from './services-demo-component/servic
 import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-component.component';
 import { FirstDummyComponentComponent } from './first-dummy-component/first-dummy-component.component';
 import { SecondDummyComponentComponent } from './second-dummy-component/second-dummy-component.component';
+import { UsersComponentComponent } from './users-component/users-component.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SecondDummyComponentComponent } from './second-dummy-component/second-d
     ServicesDemoComponentComponent,
     PipesDemoComponentComponent,
     FirstDummyComponentComponent,
-    SecondDummyComponentComponent
+    SecondDummyComponentComponent,
+    UsersComponentComponent
   ],
   exports: [
     DemoComponentComponent,
@@ -37,7 +39,8 @@ import { SecondDummyComponentComponent } from './second-dummy-component/second-d
     TwowaybindingDemoComponentComponent,
     DirectivesDemoComponentComponent,
     FirstDummyComponentComponent,
-    SecondDummyComponentComponent
+    SecondDummyComponentComponent,
+    UsersComponentComponent
   ],
   imports: [
     CommonModule,
