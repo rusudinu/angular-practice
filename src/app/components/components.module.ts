@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CapitalizePipe } from '../shared/capitalize-pipe';
 import { DemoComponentComponent } from './demo-component/demo-component.component';
 import { EnvironmentDemoComponentComponent } from './environment-demo-component/environment-demo-component.component';
@@ -14,6 +14,7 @@ import { PipesDemoComponentComponent } from './pipes-demo-component/pipes-demo-c
 import { FirstDummyComponentComponent } from './first-dummy-component/first-dummy-component.component';
 import { SecondDummyComponentComponent } from './second-dummy-component/second-dummy-component.component';
 import { UsersComponentComponent } from './users-component/users-component.component';
+import { FormsDemoComponentComponent } from './forms-demo-component/forms-demo-component.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { UsersComponentComponent } from './users-component/users-component.compo
     PipesDemoComponentComponent,
     FirstDummyComponentComponent,
     SecondDummyComponentComponent,
-    UsersComponentComponent
+    UsersComponentComponent,
+    FormsDemoComponentComponent
   ],
   exports: [
     DemoComponentComponent,
@@ -42,12 +44,14 @@ import { UsersComponentComponent } from './users-component/users-component.compo
     FirstDummyComponentComponent,
     SecondDummyComponentComponent,
     UsersComponentComponent,
-    PipesDemoComponentComponent
+    PipesDemoComponentComponent,
+    FormsDemoComponentComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    CapitalizePipe
+    CapitalizePipe,
+    ReactiveFormsModule
   ]
 })
 export class ComponentsModule {
