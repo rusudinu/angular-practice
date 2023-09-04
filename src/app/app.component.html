@@ -27,6 +27,11 @@
   <app-forms-demo-component></app-forms-demo-component>
 </div>
 <hr/>
-<a routerLink="/first-route">First Route</a>
-<a routerLink="/second-route">Second Route</a>
-<router-outlet></router-outlet>
+<div class="container mt-4">
+  <a routerLink="/first-route" class="me-2">First route</a>
+  <a routerLink="/second-route" class="me-2">Second route</a>
+  <a routerLink="/route-param/9">With route param</a>
+</div>
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>

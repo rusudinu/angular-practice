@@ -17,6 +17,7 @@ import { UsersComponentComponent } from './users-component/users-component.compo
 import { FormsDemoComponentComponent } from './forms-demo-component/forms-demo-component.component';
 import { FirstComponentUsedInRoutingComponent } from './first-component-used-in-routing/first-component-used-in-routing.component';
 import { SecondComponentUsedInRoutingComponent } from './second-component-used-in-routing/second-component-used-in-routing.component';
+import { ComponentWithRouteParameterComponent } from './component-with-route-parameter/component-with-route-parameter.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { SecondComponentUsedInRoutingComponent } from './second-component-used-i
     UsersComponentComponent,
     FormsDemoComponentComponent,
     FirstComponentUsedInRoutingComponent,
-    SecondComponentUsedInRoutingComponent
+    SecondComponentUsedInRoutingComponent,
+    ComponentWithRouteParameterComponent
   ],
   exports: [
     DemoComponentComponent,
