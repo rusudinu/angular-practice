@@ -15,6 +15,8 @@ import { FirstDummyComponentComponent } from './first-dummy-component/first-dumm
 import { SecondDummyComponentComponent } from './second-dummy-component/second-dummy-component.component';
 import { UsersComponentComponent } from './users-component/users-component.component';
 import { FormsDemoComponentComponent } from './forms-demo-component/forms-demo-component.component';
+import { FirstComponentUsedInRoutingComponent } from './first-component-used-in-routing/first-component-used-in-routing.component';
+import { SecondComponentUsedInRoutingComponent } from './second-component-used-in-routing/second-component-used-in-routing.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { FormsDemoComponentComponent } from './forms-demo-component/forms-demo-c
     FirstDummyComponentComponent,
     SecondDummyComponentComponent,
     UsersComponentComponent,
-    FormsDemoComponentComponent
+    FormsDemoComponentComponent,
+    FirstComponentUsedInRoutingComponent,
+    SecondComponentUsedInRoutingComponent
   ],
   exports: [
     DemoComponentComponent,
