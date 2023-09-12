@@ -18,6 +18,7 @@ import { FormsDemoComponentComponent } from './forms-demo-component/forms-demo-c
 import { FirstComponentUsedInRoutingComponent } from './first-component-used-in-routing/first-component-used-in-routing.component';
 import { SecondComponentUsedInRoutingComponent } from './second-component-used-in-routing/second-component-used-in-routing.component';
 import { ComponentWithRouteParameterComponent } from './component-with-route-parameter/component-with-route-parameter.component';
+import { SignalsDemoComponent } from './signals-demo/signals-demo.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ComponentWithRouteParameterComponent } from './component-with-route-par
     FormsDemoComponentComponent,
     FirstComponentUsedInRoutingComponent,
     SecondComponentUsedInRoutingComponent,
-    ComponentWithRouteParameterComponent
+    ComponentWithRouteParameterComponent,
+    SignalsDemoComponent
   ],
   exports: [
     DemoComponentComponent,
@@ -51,7 +53,8 @@ import { ComponentWithRouteParameterComponent } from './component-with-route-par
     SecondDummyComponentComponent,
     UsersComponentComponent,
     PipesDemoComponentComponent,
-    FormsDemoComponentComponent
+    FormsDemoComponentComponent,
+    SignalsDemoComponent
   ],
   imports: [
     CommonModule,
